@@ -1,0 +1,211 @@
+	html {
+		/* background: url(images/catalina.jpg) no-repeat center center fixed; */
+		background: url(https://www.apple.com/v/macos/catalina/a/images/overview/hero/desktop__on4gxlz1xv6u_xlarge.jpg) no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+
+	h1.main-header {
+		text-align: center;
+		color: white;
+		font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+		font-size: 50pt;
+		padding-top: 10%;
+		padding-left: 1em;
+		padding-right: 1em;
+		line-height: 1.125;
+		margin: 0
+	}
+
+	p.main-text {
+		text-align: center;
+		color: white;
+		font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+		font-size: 18pt;
+		padding-left: 1em;
+		padding-right: 1em;
+		line-height: 1.38105;
+		margin: 5;
+	}
+
+	p.version-text {
+		text-align: center;
+		color: white;
+		font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+		font-size: 13pt;
+		padding-left: 1em;
+		padding-right: 1em;
+		line-height: 1.38105;
+		margin: 20;
+	}
+
+	.download {
+		box-shadow: 0px 10px 14px -7px #3e7327;
+		background:linear-gradient(to bottom, #77b55a 5%, #527eb3 100%);
+		background-color:#77b55a;
+		border-radius:4px;
+		border:1px solid #4b8f29;
+		display:inline-block;
+		cursor:pointer;
+		color:#ffffff;
+		font-family:Arial;
+		font-size:15px;
+		font-weight:bold;
+		padding:11px 11px;
+		text-decoration:none;
+		text-shadow:0px 1px 0px #5b8a3c;
+	}
+	.download:hover {
+		background:linear-gradient(to bottom, #527eb3 5%, #77b55a 100%);
+		background-color:#527eb3;
+	}
+	.download:active {
+		position:relative;
+		top:1px;
+	}
+
+	.download2 {
+		box-shadow: 0px 10px 14px -7px #3e7327;
+		background:linear-gradient(to bottom, #77b55a 5%, #b35252 100%);
+		background-color:#77b55a;
+		border-radius:4px;
+		border:1px solid #4b8f29;
+		display:inline-block;
+		cursor:pointer;
+		color:#ffffff;
+		font-family:Arial;
+		font-size:15px;
+		font-weight:bold;
+		padding:11px 11px;
+		text-decoration:none;
+		text-shadow:0px 1px 0px #5b8a3c;
+	}
+	.download2:hover {
+		background:linear-gradient(to bottom, #b35252 5%, #77b55a 100%);
+		background-color:#b35252;
+	}
+	.download2:active {
+		position:relative;
+		top:1px;
+	}
+
+	.changelog {
+		box-shadow: 0px 10px 14px -7px #3e7327;
+		background:linear-gradient(to bottom, #77b55a 5%, #c5db21 100%);
+		background-color:#77b55a;
+		border-radius:4px;
+		border:1px solid #4b8f29;
+		display:inline-block;
+		cursor:pointer;
+		color:#ffffff;
+		font-family:Arial;
+		font-size:15px;
+		font-weight:bold;
+		padding:11px 11px;
+		text-decoration:none;
+		text-shadow:0px 1px 0px #5b8a3c;
+	}
+	.changelog:hover {
+		background:linear-gradient(to bottom, #c5db21 5%, #77b55a 100%);
+		background-color:#c5db21;
+	}
+	.changelog:active {
+		position:relative;
+		top:1px;
+	}
+
+	div.dl-buttons {
+		text-align: center;
+		padding: 3em;
+	}
+
+
+	.animate {
+		transition: all 0.1s;
+		-webkit-transition: all 0.1s;
+	}
+
+	a.dl-main {
+		position: relative;
+		padding: 13px 40px;
+		margin: 0px 10px 10px 0px;
+		border-radius: 3px;
+		font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+		font-size: 18px;
+		color: #FFF;
+		background-color: #3498db;
+		text-decoration: none;
+	}
+
+
+	a.dl-main:active {
+		transform: translate(0px, 5px);
+		-webkit-transform: translate(0px, 5px);
+	}
+
+	a.dl-main:hover {
+		background-color: #52a7e0;
+	}
+
+	div.collapsible-info {
+		text-align: center;
+		padding-bottom: 1em;
+		padding-top: 1em;
+	}
+
+	.collapsible {
+		background-color: #eee;
+		color: #444;
+		cursor: pointer;
+		padding: 18px;
+		width: 100%;
+		border: none;
+		text-align: left;
+		outline: none;
+		font-size: 15px;
+		width: 50%;
+		border-radius: 3px;
+	}
+
+	.active,
+	.collapsible:hover {
+		background-color: #ccc;
+
+	}
+
+	.active {
+		border-bottom-left-radius: 0px;
+		border-bottom-right-radius: 0px;
+	}
+
+	.content {
+
+		max-height: 0;
+		overflow: hidden;
+		transition: max-height 0.2s ease-out;
+		background-color: #f1f1f1;
+		width: 50%;
+		margin: 0 auto;
+		text-align: left;
+		border-bottom-left-radius: 3px;
+		border-bottom-right-radius: 3px;
+		font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	}
+
+	p.text {
+		padding: 0 18px;
+
+	}
+
+	form.donate {
+		text-align: center;
+	}
+
+	li {
+		padding: 5px 0px;
+	}
+	a.downloadlink {
+		color: #FFF;
+	}
