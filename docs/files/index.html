@@ -13,11 +13,11 @@
         (async () => {
             const response = await fetch('https://api.github.com/repos/muhrizki1996/Android-TV-Box-Indonesia/contents/docs/files');
             const data = await response.json();
-            let htmlString = '<ul>';
+            let htmlString = '<table><tr><th valign="top">&nbsp;</th> <th>Name</th> <th>Size</th> <th>SHA1</th></tr><br><tr><th colspan="5"><hr></th></tr><br>';
             for (let file of data) {
-                htmlString += `<li><a href="https://muhrizki1996.github.io/Android-TV-Box-Indonesia/files/${file.name}">${file.name}</a></li>`;
+                htmlString += `<tr><td valign="top">&nbsp;</td><td><a href="https://muhrizki1996.github.io/Android-TV-Box-Indonesia/files/${file.name}">${file.name}</a></td><td align="right">  ${file.size} </td><td>${file.sha}</td></tr>`;
             }
-            htmlString += '</ul>';
+            htmlString += '<br><tr><th colspan="5"><hr></th></tr></table><br><address>Apache Server at muhrizki1996.github.io Port 443</address>';
             document.getElementsByTagName('body')[0].innerHTML = htmlString;
         })()
     </script>
