@@ -15,7 +15,7 @@
             const data = await response.json();
             let htmlString = '<ul>';
             for (let file of data) {
-                htmlString += `<li><a href="https://muhrizki1996.github.io/Android-TV-Box-Indonesia/${file.name}">${file.name}</a></li>`;
+                htmlString += `<li><a href="https://muhrizki1996.github.io/Android-TV-Box-Indonesia/files/${file.name}">${file.name}</a></li>`;
             }
             htmlString += '</ul>';
             document.getElementsByTagName('body')[0].innerHTML = htmlString;
